@@ -22,7 +22,7 @@ int main()
     fprintf(fp, "VERSION:4.0\r\n");
     fprintf(fp, "FN:%s\r\n", xm);
     fprintf(fp, "TEL;VALUE=uri;TYPE=\"cell,voice\":tel:%s\r\n", sj);
-    fprintf(fp, "EMAIL:%s\r\n", yx);
+    fprintf(fp, "EMAIL;TYPE=:%s\r\n", yx);
     //fprintf(fp, "URL:%s\r\n", wz);
     fprintf(fp, "END:VCARD\r\n");
     fclose(fp);
