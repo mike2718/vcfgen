@@ -16,3 +16,5 @@ vCard生成器 ver.0.1.0
 
 默认名片生成在和可执行文件相同目录下，文件名为`my_card.vcf`
 
+Arch默认生成无BOM、CRLF结尾、UTF-8的.vcf文件。
+
