@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    char xm[100];
-    char sj[100];
-    char yx[200];
+    char xm[1055];
+    char sj[34];
+    char yx[255];
     //char wz[2000];
     FILE *fp = NULL;
 
