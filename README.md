@@ -2,13 +2,17 @@
 
 ## 简介
 
-因为使用过很多vcf生成器，都很烂，于是想办法自己做一个。
+用过很多.vcf生成器，都很烂，于是自己做一个。
 
 ## 用法
 
 ```
-$ clang -o vcfgen vcfgen.c && ./vcfgen
+% clang -o vcfgen vcfgen.c && ./vcfgen
+vCard生成器 ver.0.1.0
+请输入姓名：张三
+请输入手机：13823456789
+请输入邮箱地址：user@example.com
 ```
 
-默认生成的文件名为`my_card.vcf`
+默认名片生成在和可执行文件相同目录下，文件名为`my_card.vcf`
 

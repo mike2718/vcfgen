@@ -3,7 +3,7 @@ int main()
 {
     char xm[100];
     char sj[100];
-    char yx[100];
+    char yx[200];
     FILE *fp = NULL;
 
     printf("vCard生成器 ver.0.1.0\n");
@@ -22,8 +22,6 @@ int main()
     fprintf(fp, "TEL;type=CELL:%s\r\n", sj);
     fprintf(fp, "END:VCARD\r\n");
     fprintf(fp, "\r\n");
-    //fprintf(fp, "This is testing for fprintf...\n");
-    //fputs("This is testing for fputs...\n", fp);
     fclose(fp);
     return 0;
 }
