@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    char xm[1055];
-    char sj[34];
-    char yx[255];
+    char xm[14];   //"长孙无忌"
+    char sj[19];   //"+86 138 2345 6789"
+    char yx[255];  //https://stackoverflow.com/questions/7717573/what-is-the-longest-possible-email-address
     //char wz[2000];
     FILE *fp = NULL;
 
@@ -26,5 +26,6 @@ int main()
     //fprintf(fp, "URL:%s\r\n", wz);
     fprintf(fp, "END:VCARD\r\n");
     fclose(fp);
+    printf("已写入my_card.vcf\n");
     return 0;
 }
