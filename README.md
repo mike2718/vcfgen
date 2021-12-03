@@ -2,13 +2,13 @@
 
 ## 简介
 
-用过很多vCard生成器，都很烂，没办法处理中文人名，于是自己做一个v.4.0 vCard的生成器。
+用过很多vCard生成器，都很烂，没办法处理中文人名，于是自己做一个vCard v.4.0的生成器。
 
 ## 用法
 
 ```
 % clang -o vcfgen vcfgen.c && ./vcfgen
-vCard生成器 ver.0.1.0
+vCard生成器 v.0.1.0
 请输入姓名：张三
 请输入手机：13823456789
 请输入邮箱地址：user@example.com

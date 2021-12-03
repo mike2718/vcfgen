@@ -1,3 +1,9 @@
+//vCard生成器 v.0.1.0
+//作用：
+//  在当前目录下，生成名为my_card.vcf的vCard v.4.0文件
+//用法：
+//  % clang -Wall -Wpedantic -Wextra -Werror -g -O0 -std=c99 -o vcfgen vcfgen.c
+//  % ./vcfgen
 #include <stdio.h>
 int main()
 {
