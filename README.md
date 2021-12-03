@@ -22,6 +22,6 @@ Arch Linux下默认生成CRLF行结尾、无BOM、UTF-8的.vcf文件。
 ## 生成QR码
 
 ```
-% cat my_card.vcf | qrencode -o my_card.png
+% qrencode -o wifi.png -r my_card.vcf -s 10
 ```
 
