@@ -5,7 +5,7 @@
 //  % clang -Wall -Wpedantic -Wextra -Werror -g -O0 -std=c99 -o vcfgen vcfgen.c
 //  % ./vcfgen
 #include <stdio.h>
-int main()
+int main(void)
 {
     char xm[14];   //"长孙无忌"
     char sj[19];   //"+86 138 2345 6789"

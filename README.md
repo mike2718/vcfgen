@@ -7,7 +7,7 @@
 ## 用法
 
 ```
-% clang -o vcfgen vcfgen.c && ./vcfgen
+$ clang -o vcfgen vcfgen.c && ./vcfgen
 vCard生成器 v.0.1.0
 请输入姓名：张三
 请输入手机：13823456789
@@ -22,6 +22,6 @@ Arch Linux下默认生成CRLF行结尾、无BOM、UTF-8的.vcf文件。
 ## 生成QR码
 
 ```
-% qrencode -o my_card.png -r my_card.vcf -s 10
+$ qrencode -o my_card.png -r my_card.vcf -s 10
 ```
 
